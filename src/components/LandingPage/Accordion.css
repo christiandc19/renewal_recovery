@@ -1,0 +1,89 @@
+
+.accordionProps {
+    
+    background-color: #ffffff;
+    padding: 2rem 0;
+}
+
+.accordionProps h1 {
+  font-size: 1rem;
+  color: orange;
+  font-family: "Noto Serif Oriya", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.accordion {
+    max-width: 90%;
+    margin: auto;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-title {
+    background-color: #ffffff;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.6s ease;
+    color: rgb(26, 24, 24);
+
+  }
+  
+  .accordion-title.active {
+    color: #dfa60b;
+  }
+  
+  .accordion-icon {
+    font-size: 1.5rem;
+  }
+  
+  .accordion-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out, padding 0.3s ease;
+    padding: 0 15px;
+  }
+  
+  
+  .accordion-content.show {
+    padding: 10px 15px;
+    max-height: 100px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-content p {
+    margin: 0;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+  
+
+  @media screen and (max-width: 940px) {
+    .accordion-content p {
+        font-size: 14px;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .accordion-content p {
+        font-size: 14px;
+      }
+
+      .accordion-title {
+        font-size: 1rem;    
+      }
+  }
