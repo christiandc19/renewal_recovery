@@ -26,29 +26,23 @@ const Insurance = () => {
 
             <div className="insurance-item">
               <img src={Aetna} alt="Aetna" />
-              <p>AETNA</p>
             </div>
             <div className="insurance-item">
               <img src={Antem} alt="Anthem" />
-              <p>ANTHEM</p>
             </div>
             <div className="insurance-item">
               <img src={Beacon} alt="Beacon" />
-              <p>BEACON</p>
             </div>
             <div className="insurance-item">
               <img src={Bluecross} alt="Bluecross" />
-              <p>BLUECROSS</p>
             </div>
 
             <div className="insurance-item">
               <img src={Cigna} alt="Cigna" />
-              <p>CIGNA</p>
             </div>
 
             <div className="insurance-item">
               <img src={Horizon} alt="Horizon" />
-              <p>HORIZON</p>
             </div>
 
           </div>

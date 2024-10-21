@@ -53,7 +53,7 @@
     width: 120px;
     padding: .5rem;
     z-index: 1000; /* Ensure the navbar stays above other content */
-    border-right: 1px solid #ffffff4d;
+    /* border-right: 1px solid #ffffff4d; */
 
 }
 
